@@ -176,15 +176,14 @@
 }
 
 @media screen and (max-width: 375) {
-  .wrapper {
-    display: block;
-  }
-
-  .new-wrapper {
-    display: inline-block;
-  }
-
-  .main-desc {
+  body {
+    height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    color: red;
   }
 }
