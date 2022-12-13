@@ -24,6 +24,14 @@ hr {
   color: hsl(233, 8%, 79%);
 }
 
+/* .article-link {
+  color: #000;
+}
+
+.article-link {
+  font-weight: 800;
+} */
+
 .main-p-desc {
   color: hsl(236, 13%, 42%);
   width: 75%;
@@ -223,8 +231,8 @@ hr {
     gap: 65%;
   }
 
-  .nav-links {
-    display: none;
+  .logo {
+    margin-top: 0.5rem;
   }
 
   .web-3-img {
@@ -262,5 +270,40 @@ hr {
 
   .article-p-desc {
     width: 100%;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .nav-links {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    list-style-type: none;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f1f1f1;
   }
 }
