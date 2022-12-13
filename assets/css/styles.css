@@ -28,10 +28,6 @@ hr {
   color: #000;
 }
 
-/* .article-link {
-  font-weight: 800;
-} */
-
 .main-p-desc {
   color: hsl(236, 13%, 42%);
   width: 75%;
@@ -123,7 +119,7 @@ hr {
 /* DESKTOP SCREEN STYLES */
 /**********************/
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   li {
     list-style-type: none;
     display: inline;
@@ -209,7 +205,7 @@ hr {
 /* MOBILE SCREEN STYLES */
 /**********************/
 
-@media screen and (min-width: 375px) and (max-width: 1200px) {
+@media screen and (min-width: 375px) and (max-width: 1024px) {
   h1 {
     color: #000;
     font-size: 3rem;
